@@ -1,0 +1,24 @@
+.minicard {
+    display: flex;
+    flex-direction: column;
+    border: 1ps solid black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    height: 8rem;
+    width: 9rem;
+    margin:4px 4px;
+    padding-top: 3px;
+    background-color: $color-green;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.4);
+    
+    h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $color-slate;
+    }
+}
+
+.minicard img {
+    height: 5rem;
+}

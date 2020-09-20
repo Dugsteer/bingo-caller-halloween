@@ -2,8 +2,7 @@
 
 //GENERAL SCRIPT
 const bingoArray = [
-  "archery.svg", "badminton.svg", "basketball.svg", "boxing.svg", "climbing.svg", "cycling.svg", "diving.svg", "driving.svg", "football.svg", "golf.svg", "gymnastics.svg", "hang-gliding.svg", "hiking.svg", "hockey.svg", "horse-riding.svg", "ice-skating.svg", "karate.svg", "kayak.svg", "paddle-surf.svg", "rugby.svg", "running.svg", "sailing.svg", "skiing.svg", "surfing.svg", "swimming.svg", "table-tennis.svg", "tennis.svg", "weight-lifting.svg", "windsurfing.svg", "yoga.svg"
-  ];
+  "bat.svg", "bone.svg", "broomstick.svg", "candles.svg", "candy.svg", "cat.svg", "cauldron.svg", "clown.svg", "coffin.svg", "death.svg", "fancy-dress.svg", "fangs.svg", "frankenstein.svg", "ghost.svg", "grave.svg", "halloween.svg", "hat.svg", "monster.svg", "moon.svg", "mummy.svg", "pirate.svg", "pumpkin.svg", "skeleton.svg", "skull.svg", "spell.svg", "spider.svg", "vampire.svg", "wand.svg", "web.svg", "werewolf.svg", "witch.svg", "wizard.svg", "zombie.svg"  ];
 
   const wrapper = document.getElementById("wrapper");
   const newArray = [];

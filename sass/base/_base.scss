@@ -23,6 +23,7 @@ html {
 body {
   padding: 0;
   margin: 0;
+  background-color: #000;
 }
 
 .content {
@@ -31,9 +32,10 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: $color-light-grey;
+  background-color: #000;
   margin: 0 auto;
-  grid-template-rows: 8vw 5vw 6vw minmax(0, 1fr) 1fr 1fr;
+  grid-template-rows: 4vw 5vw 6vw minmax(0, 1fr) 1fr 1fr;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
+  color: #fff;
 }

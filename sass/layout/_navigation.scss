@@ -1,6 +1,6 @@
 .nav-bar {
-  background-color: $color-blue;
-  color: $color-light-grey;
+  background-color:transparent;
+  color: $color-orange;
   display: grid;
   height: 7rem;
   grid-template-columns: 5vw 8vw 15vw 45vw 18vw 5vw;
@@ -23,6 +23,7 @@
   &__link{
     @media only screen and (max-width: $bp-medium) {
       grid-column: 4/5;
+      color: $color-orange;
   
     }
 
@@ -42,11 +43,11 @@
       display: none;
     }
     @media only screen and (max-width: $bp-small) {
-      font-size: 1rem;
+      font-size: 2rem;
     }
     
     &:hover {
-      color: $color-yellow;
+      color: $color-orange;
     }
 
     &-page {
@@ -83,9 +84,9 @@
       width: 4rem;
       margin-left: 2rem;
       justify-self: center;
-      fill: #fff;
+      fill: $color-orange;
       &:hover {
-        fill: $color-yellow;
+        fill: #fff;
       }
     }
   }
@@ -99,12 +100,12 @@
   &__link {
     font-size: 1.4rem;
     align-self: center;
-    color: $color-light-grey;
+    color: $color-orange;
     font-family: Montserrat, sans-serif;
     text-decoration: none;
 
     &:hover {
-      color: $color-yellow;
+      color: #fff;
     }
 
     &.link2,

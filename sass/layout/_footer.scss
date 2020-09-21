@@ -2,14 +2,14 @@
 
 .footer{
   display: flex;
-
+margin-top: 8rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: $color-light-grey;
   padding: 1.5rem 0;
   height: 7rem;
-  background-color: $color-blue;
+
 
   &__copyright {
     text-align: center;

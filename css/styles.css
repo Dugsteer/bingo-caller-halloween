@@ -21,17 +21,18 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-color: #000; }
+  background-image: url("/img/halloween-bg.jpg");
+  background-size: cover; }
 
 .content {
   width: 90%;
-  min-height: 50vh;
+  min-height: 90vh;
+  max-height: 110vh;
   display: grid;
   align-items: center;
   justify-content: center;
-  background-color: #000;
   margin: 0 auto;
-  grid-template-rows: 4vw 5vw 6vw minmax(0, 1fr) 1fr 1fr;
+  grid-template-rows: 3vw 3vw 6vw;
   grid-template-columns: 1fr;
   grid-gap: 1rem;
   color: #fff; }
@@ -51,7 +52,7 @@ h1 {
   margin: 0; }
 
 h2 {
-  color: #881EE4;
+  color: #120437;
   font-size: 2rem; }
 
 h3 {
@@ -132,8 +133,8 @@ h4 {
   align-items: center;
   justify-content: center;
   border-radius: 8px;
-  height: 8rem;
-  width: 9rem;
+  height: 12rem;
+  width: 11rem;
   margin: 4px 4px;
   padding-top: 3px;
   background-color: #FF9A00;
@@ -148,13 +149,13 @@ h4 {
 
 .footer {
   display: flex;
+  margin-top: 8rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #eaeaea;
   padding: 1.5rem 0;
-  height: 7rem;
-  background-color: #881EE4; }
+  height: 7rem; }
   .footer__copyright {
     text-align: center;
     line-height: 1.5; }
@@ -171,8 +172,8 @@ h4 {
   color: #ffe164; }
 
 .nav-bar {
-  background-color: #881EE4;
-  color: #eaeaea;
+  background-color: transparent;
+  color: #F75F1C;
   display: grid;
   height: 7rem;
   grid-template-columns: 5vw 8vw 15vw 45vw 18vw 5vw;
@@ -187,7 +188,8 @@ h4 {
     grid-column: 4/5; }
   @media only screen and (max-width: 50em) {
     .nav-bar__link {
-      grid-column: 4/5; } }
+      grid-column: 4/5;
+      color: #F75F1C; } }
   @media only screen and (max-width: 50em) {
     .nav-bar {
       grid-template-columns: 5vw 18vw 1fr 18vw 5vw; } }
@@ -201,9 +203,9 @@ h4 {
         display: none; } }
     @media only screen and (max-width: 37.5em) {
       .nav-bar__title {
-        font-size: 1rem; } }
+        font-size: 2rem; } }
     .nav-bar__title:hover {
-      color: #ffe164; }
+      color: #F75F1C; }
     .nav-bar__title-page {
       display: flex;
       justify-content: space-between;
@@ -228,9 +230,9 @@ h4 {
     width: 4rem;
     margin-left: 2rem;
     justify-self: center;
-    fill: #fff; }
+    fill: #F75F1C; }
     .nav-bar__logo-img:hover {
-      fill: #ffe164; }
+      fill: #fff; }
   .nav-bar__links {
     display: flex;
     justify-content: space-evenly;
@@ -238,11 +240,11 @@ h4 {
   .nav-bar__link {
     font-size: 1.4rem;
     align-self: center;
-    color: #eaeaea;
+    color: #F75F1C;
     font-family: Montserrat, sans-serif;
     text-decoration: none; }
     .nav-bar__link:hover {
-      color: #ffe164; }
+      color: #fff; }
     @media only screen and (max-width: 37.5em) {
       .nav-bar__link.link2, .nav-bar__link.link3 {
         display: none; } }
@@ -252,9 +254,9 @@ h4 {
   justify-content: center;
   flex-wrap: wrap;
   grid-row: 4/5;
-  width: 50vw;
+  width: 80vw;
   align-self: start;
-  margin: 4rem auto;
+  margin: 2rem auto;
   grid-column: 1/2;
   flex: 0 0 0; }
 

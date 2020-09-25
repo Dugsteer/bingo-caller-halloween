@@ -6,9 +6,10 @@ margin-top: 8rem;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: $color-light-grey;
+  color: $color-halloween-white;
   padding: 1.5rem 0;
   height: 7rem;
+  background: rgba(255,255,255,0.2);
 
 
   &__copyright {
@@ -29,5 +30,5 @@ margin-top: 8rem;
 }
 
 #footer a{
-  color: $color-yellow;
+  color: $color-halloween-orange;
 }

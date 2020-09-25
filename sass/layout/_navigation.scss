@@ -1,6 +1,6 @@
 .nav-bar {
-  background-color:transparent;
-  color: $color-orange;
+  background: rgba(255,255,255,0.2);
+  color: $color-halloween-white;
   display: grid;
   height: 7rem;
   grid-template-columns: 5vw 8vw 15vw 45vw 18vw 5vw;
@@ -23,7 +23,7 @@
   &__link{
     @media only screen and (max-width: $bp-medium) {
       grid-column: 4/5;
-      color: $color-orange;
+      color: $color-halloween-white;
   
     }
 
@@ -47,7 +47,7 @@
     }
     
     &:hover {
-      color: $color-orange;
+      color: $color-halloween-orange;
     }
 
     &-page {
@@ -59,20 +59,10 @@
       height: 7rem;
       font-size: 3rem;
       font-weight: bold;
-      color: $color-orange;
-      text-shadow: 1px 1px 1px #fff;
+      color: $color-halloween-white;
 
       @media only screen and (max-width: $bp-medium) {
         font-size: 1.6rem;
-      }
-
-      &-deco {
-        height: 5rem;
-        width: auto;
-
-        @media only screen and (max-width: $bp-small) {
-          display: none;
-        }
       }
     }
   }
@@ -84,9 +74,9 @@
       width: 4rem;
       margin-left: 2rem;
       justify-self: center;
-      fill: $color-orange;
+      fill: $color-halloween-white;
       &:hover {
-        fill: #fff;
+        fill: $color-halloween-orange;
       }
     }
   }
@@ -100,12 +90,12 @@
   &__link {
     font-size: 1.4rem;
     align-self: center;
-    color: $color-orange;
+    color: $color-halloween-orange;
     font-family: Montserrat, sans-serif;
     text-decoration: none;
 
     &:hover {
-      color: #fff;
+      color: $color-halloween;
     }
 
     &.link2,

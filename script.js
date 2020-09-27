@@ -1,4 +1,10 @@
+const loader = document.getElementById("loaderDiv");
 
+function stopLoader() {
+  loader.classList.add('stop');
+}
+
+setTimeout(stopLoader, 1000);
 
 //GENERAL SCRIPT
 const bingoArray = [
